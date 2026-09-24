@@ -1,0 +1,36 @@
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration and tooling
+.env
+.env.*
+.vscode/
+.idea/
+
+# Notebooks and test artifacts
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Training outputs and model checkpoints
+checkpoints/
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
